@@ -1,0 +1,16 @@
+{
+  "name": "axure-automation",
+  "version": "1.0.0",
+  "description": "Axure 原型自动化测试框架",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js",
+    "test:pages": "node run.js --module pages",
+    "test:navigation": "node run.js --module navigation",
+    "test:forms": "node run.js --module forms",
+    "report": "node run.js --report-only"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
